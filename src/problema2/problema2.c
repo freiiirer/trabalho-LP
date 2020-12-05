@@ -43,7 +43,7 @@ void ler(int x)
         printf("Digite o nome do produto: \n");
         gets(vProdutos[x]->nomeProduto);
         ff;
-        printf("Digite o preço: \n");
+        printf("Digite o preco: \n");
         scanf("%f",&vProdutos[x]->precoProduto);
         ff;
         limpaTela();
@@ -80,11 +80,12 @@ void imprimirTodos()
     limpaTela();
     for (i=0;i<T;i++){
         if(vProdutos[i] != NULL){
-            printf("Codigo: %d\n Produto: %s\n Preco: R$%.2f\n",vProdutos[i]->codigoProduto,vProdutos[i]->nomeProduto,vProdutos[i]->precoProduto);
+            printf(" Codigo: %d\n Produto: %s\n Preco: R$%.2f\n",vProdutos[i]->codigoProduto,vProdutos[i]->nomeProduto,vProdutos[i]->precoProduto);
+            printf("\n-------------------------------------------\n");
             soma = soma + vProdutos[i]->precoProduto;
         }
     }
-        printf("Total = %.2f\n",soma);
+        printf("Preco Total de Todos os Produtos = %.2f\n",soma);
         system("pause");
         limpaTela();
 }
