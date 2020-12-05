@@ -9,5 +9,6 @@ struct Candidato
 };
 
 void problema1();
+void limpaTela();
 
 #endif /* PROBLEMA1_PROBLEMA1_H_ */

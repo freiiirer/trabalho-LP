@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include "problema1/problema1.h"
+#include "problema2/problema2.h"
 typedef void(*Problema)(void);
 
 int main(void) {
@@ -16,7 +17,7 @@ int main(void) {
 
 		Problema problema[] =
 		{
-				&problema1
+				&problema1, &problema2
 		};
 
 		switch(opc)
