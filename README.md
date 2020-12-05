@@ -1,6 +1,6 @@
 # Trabalho-LP
 
-trabalho de Linguagem de programacao desenvolvido por Leonardo Tozoni, Leonardo Freire, Ryan Marchi, Pedro Luno e Daniel Moura
+trabalho de Linguagem de programacao desenvolvido por Leonardo Tozoni, Leonardo Freire, Ryan Marchi, Pedro Luna e Daniel Moura
 
 ### Problema 1
 
