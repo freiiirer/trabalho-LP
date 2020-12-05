@@ -110,12 +110,13 @@ void ordena(char *gabarito) {
 }
 void problema1() {
 	char gabarito[51] = { "\0" };
-
+	int opc = 0;
 	do {
-		int opc = 0;
+
 		puts("1-> Digitar gabarito oficial");
 		puts("2-> Cadastrar Candidato");
 		puts("3-> Listar Candidatos");
+		printf("9..Sair\n\n");
 		ff;
 		scanf("%d", &opc);
 		limpaTela();
@@ -132,6 +133,6 @@ void problema1() {
 		case 3:
 			ordena(gabarito);
 		}
-	} while (1);
+	} while (opc != 9);
 }
 
