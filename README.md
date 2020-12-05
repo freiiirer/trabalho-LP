@@ -2,7 +2,7 @@
 
 trabalho de Linguagem de programacao desenvolvido por Leonardo Tozoni, Leonardo Freire, Ryan Marchi, Pedro Luna e Daniel Moura
 
-###Link para vídeo explicativo:
+Link para vídeo explicativo:
 
   https://youtu.be/0XvFibZd6rc
 
