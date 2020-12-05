@@ -26,19 +26,6 @@ Ex de saída:13111 4214112 40
 
 ### Problema 2
 
-##### Projeto conta bancária
+##### Projeto cadastrar produto
 
-Dadas as duas structs abaixo:
-
-struct Cliente{
-  char nome[256];
-  intcpf;
-};
-
-struct Conta {
-  intnumero_da_conta;
-  struct Clientecliente;
-  floatsaldo;
-};
-    
-Crie um programa que permita gravar as informaçõesde um cliente e de uma conta(memória). Uma vez aberta a conta, faça noprograma uma simulação deoperações de depósito, saque, e exibição de saldo.Nota: você deve considerar como regra para sacar que só é feito o saque seo cliente possuir saldo, e para depositar a regra é que o valor seja positivo.
+Desenvolver um programa que simule um carrinho de supermercado. A equipe usarácomo base duas estruturas: a produto e a carrinho.Estrutura : ProdutoCampos membros: codigo, descricao, precounitEstrutura: CarrinhoCampos membros: numitem, codigoprod, qtd, precototal (vetor para ponteiros da estrutura produto).Considere um arquivo dado contendo as informações como base, a saber:12311COCA-COLA 2 LT5.9813111FANTA 2 LT5.2314422SKOL LATINHA2.9814221SKOL GARRAFA3.11OBS: complete com vários itens.Fazer um  programa principal  que  simule  a  abertura  de  um  carrinho  de  compras  e que  nele  pode-se adicionar até 100 itens diferentes de produtos, e ao final deve imprimir na tela um resumo da compra feita com o preço total por item e o total da compra. 
